@@ -1,3 +1,3 @@
 output "glue_role_arn" {
-  value = aws_iam_policy.glue_job_policy.arn
+  value = aws_iam_role.glue_job_role.arn
 }
