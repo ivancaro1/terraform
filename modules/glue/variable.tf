@@ -37,3 +37,8 @@ variable "number_workers" {
   description = "Numero de workers definidos para ejecutar un job de Glue."
   type        = number
 }
+
+variable "role_arn" {
+  description = "ARN del rol de Glue con los permisos para ejecutar un job."
+  type        = string
+}
